@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "pod-install": "cd ios && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
@@ -15,10 +16,12 @@
     "@react-navigation/native-stack": "^6.9.17",
     "@tamagui/config": "^1.88.18",
     "@tamagui/core": "^1.88.18",
+    "@types/react-native-vector-icons": "^6.4.18",
     "react": "18.2.0",
     "react-native": "0.73.3",
     "react-native-safe-area-context": "^4.8.2",
     "react-native-screens": "^3.29.0",
+    "react-native-vector-icons": "^10.0.3",
     "tamagui": "^1.88.18"
   },
   "devDependencies": {
